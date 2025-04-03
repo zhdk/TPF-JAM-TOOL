@@ -96,7 +96,7 @@ So, happy jamming...
 3. Close your Reaper session
 
 
-For more detailed information, visit the Wiki https://github.com/jschuett/tpf-jam-tool/wiki -->, which is still in progress!
+For more detailed information, visit the Wiki https://github.com/joambi/tpf-jam-tool/wiki -->, which is still in progress!
 
 ----
 ## Bugs
