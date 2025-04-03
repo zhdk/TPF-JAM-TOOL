@@ -36,7 +36,7 @@ And now, let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOL here: https://github.com/jschuett/tpf-jam-tool/releases/tag/v2.0beta
+### You can download the TPF-JAM-TOOL here: [TPF-JAM-TOOL](https://github.com/joambi/tpf-jam-tool/releases/)
 #### NOTE:
 
 TPF-JAM-TOOL is for testing and is still under development!
