@@ -67,7 +67,7 @@ Then, open the Reaper.app with a Ctrl-click or right-click.
 You have completed all pre-installations and are up to date.
 
 --> Restart Computer!
-1. First, setup your Audio Interface and Hardware components, e.g.
+1. First, set up your Audio Interface and Hardware components, e.g.
 	- Mic (CH1)
 	- Instrument (Keyboard) (CH2)
 2. Make sure that your hardware works correctly with your Mac/PC
