@@ -11,13 +11,13 @@ A key feature of the tool is its ability to transmit communication and musical s
 
 This was the primary motivation to integrate the 3D audio research '[Ambisonics at ICST](https://ambisonics.ch/)' into the telematic applications in the [spatial-discontinuities-in-telematic-performances](https://www.zhdk.ch/en/researchproject/575742) project.
 The tools are freely available, and while the installation may take some time, it's a worthwhile investment. 
-The TPF-Client application handles firewall and IT settings, allowing you to focus on immediately connecting with other musicians and starting to jam. The digital audio workstation "Reaper 7.16"(the newest) is your digital mixing console. You can mix the incoming signals in a virtual room with Reaper and the pre-installed third-party plugins.
+The TPF-Client application handles firewall and IT settings, allowing you to focus on immediately connecting with other musicians and starting to jam. The digital audio workstation "Reaper 7+"(latest) is your digital mixing console. You can mix the incoming signals in a virtual room with Reaper and the pre-installed third-party plugins.
 Of course, the mix can also be recorded directly in Reaper, providing an instant recording of your jamming session.
-The tool was developed as part of the project [Spatial Dis/continuities in Telematic Performances](https://www.zhdk.ch/en/researchproject/575742) at the Institute for Computer Music and Sound Technology (ICST) at the Zurich University of the Arts. It reflects the research group's artistic and technical explorations in the field of telematic performance and remote musical collaboration.
+The tool was developed as part of the project [Spatial Dis/continuities in Telematic Performances](https://www.zhdk.ch/en/researchproject/575742) at the Institute for Computer Music and Sound Technology (ICST) at the Zurich University of the Arts. It reflects the research group's artistic and technical explorations in telematic performance and remote musical collaboration.
 
-One of the main motivations behind TPF-JAM-TOOL comes from the experience of the beneficial aspects of using binaural auralisation in listening contexts. Compared to stereo panning, binaural auralisation allows for a more precise placement of sound sources within the acoustic panorama, allowing for a clearer separation in the perception of remote players and thus a more embodied form of communication. It also counteracts 'zoom fatigue' - the acoustic exhaustion that often results from prolonged online communication and collaboration. Some of our basic ideas can be found in the research paper [Telemerisve Audio Systems for Online Jamming](https://ieeexplore.ieee.org/document/10704096) presented at the International Symposium on the Internet of Sounds 2024.
+One of the primary motivations behind TPF-JAM-TOOL comes from the experience of the beneficial aspects of using binaural auralisation in listening contexts. Compared to stereo panning, binaural auralisation allows for a more precise placement of sound sources within the acoustic panorama, allowing for a more accurate separation in the perception of remote players and thus a more embodied form of communication. It also counteracts 'zoom fatigue' - the acoustic exhaustion often resulting from prolonged online communication and collaboration. Some of our basic ideas can be found in the research paper [Telemerisve Audio Systems for Online Jamming](https://ieeexplore.ieee.org/document/10704096) presented at the International Symposium on the Internet of Sounds 2024.
 
-The tool builds on previous developments by the Telematic Performance Format (TPF) research group, including [tpf-client](https://github.com/zhdk/tpf-client), [tpf-server](https://github.com/zhdk/tpf-server) and [tpf-installers](https://github.com/zhdk/tpf-installers), and incorporates the ICST's extensive expertise in [Ambisonics](https://ambisonics.ch/home/) and spatial audio technologies.
+The tool builds on previous developments by the Telematic Performance Format (TPF) research group, including [tpf-client](https://github.com/zhdk/tpf-client), [tpf-server](https://github.com/zhdk/tpf-server) and [tpf-installers](https://github.com/zhdk/tpf-installers) and incorporates the ICST's extensive expertise in [Ambisonics](https://ambisonics.ch/home/) and spatial audio technologies.
 
 TPF-JAM-TOOL uses the digital audio workstation (DAW) [Reaper](https://www.reaper.fm/) because of its widespread use, especially in the field of 3D audio production. Reaper's powerful [Lua scripting](https://dail8859.github.io/LuaScript/) capabilities allow most of Reaper's parameters to be controlled via scripts, thus enabling a seamless integration of the various software components involved in TPF-JAM-TOOL.
 
@@ -31,7 +31,7 @@ And now, let's jam...
 # What can TPF-JAM-TOOL do?
 
 
-- Low-latency bidirectional telematic jamming over Lan
+- Low-latency bidirectional telematic jamming over LAN.
 - Two Inputs (Mic/Inst) sending to 16 Destinations/Locations
 - Receiving max. 16 locations 
 - Placement in 3D audio (binaural) 
