@@ -3,7 +3,10 @@
 
 ## About
 
-TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
+TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. 
+
+(Mac only)  
+
 TPF-JAM-TOOL further develops the previous tools '[tpf-tools](https://telematicperformance.com/tools/)' and 'TPF-JAM-BASIC'. [Reaper.fm](https://www.reaper.fm/) is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts ([LuaScript](https://dail8859.github.io/LuaScript/)) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOL is to provide a very easy-to-use bundle with various possibilities. In connection with the SNSF research project '[spatial-dis-continuities-in-telematic-performances](https://networkperformance.space)', many features have been incorporated into this tool. 
 Over the years, we spent many hours communicating over Zoom as a team of artists and researchers, which always tired us out quickly from an acoustic point of view. After experimenting with Ambisonics and Binaural rendering, many of us became less tired because a more natural hearing sensation set in, especially in music making.
 
@@ -21,7 +24,7 @@ And now, let's jam...
 
 
 - Low-latency bidirectional telematic jamming over Lan
-- Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations
+- Two Inputs (Mic/Inst) sending to 16 Destinations/Locations
 - Receiving max. 16 locations 
 - Placement in 3D audio (binaural) 
 - Streaming a binaural Mix (2ch) over OBS
@@ -39,7 +42,6 @@ And now, let's jam...
 ### You can download the TPF-JAM-TOOL here: [TPF-JAM-TOOL](https://github.com/joambi/tpf-jam-tool/releases/)
 #### NOTE:
 
-TPF-JAM-TOOL is for testing and is still under development!
 Please read the [installation](https://github.com/joambi/tpf-jam-tool/wiki/Installation) instructions!
 
 ---
@@ -70,10 +72,10 @@ You have completed all pre-installations and are up to date.
 1. First, set up your Audio Interface and Hardware components, e.g.
 	- Mic (CH1)
 	- Instrument (Keyboard) (CH2)
-2. Make sure that your hardware works correctly with your Mac/PC
-3. Create an Aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial. (for Windows take [Virtual cable](https://vb-audio.com/Services/licensing.htm) (Donate $)
+2. Make sure that your hardware works correctly with your Mac
+3. Create an Aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
 4. You get all the needed information, like the server address, room, and link to Livelab, by mail invitation from Bandleader. 
-5. Open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
+5. Open Reaper, then choose "Settings" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 6. The left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
 7. Press the button 'tpf-client on'
 8. In 'tpf-client,' go to Settings and add your <location-name> and the <jamming-room-name>.
@@ -96,12 +98,7 @@ So, happy jamming...
 3. Close your Reaper session
 
 
-For more detailed information, visit the Wiki https://github.com/joambi/tpf-jam-tool/wiki -->, which is still in progress!
-
-----
-## Bugs
-For any bug report or suggestion, please open an issue
-[here](https://github.com/joambi/TPF-JAM-TOOL/discussions).
+For more detailed information, visit the Wiki https://github.com/joambi/tpf-jam-tool/wiki 
 
 ---
 
@@ -112,8 +109,10 @@ For any bug report or suggestion, please open an issue
 - IEM Plugin Suite <https://plugins.iem.at/>
 - ICST Ambisonics Plugins <https://github.com/schweizerweb/icst-ambisonics-plugins/wiki>
 - TPF-Client 2.0+ <https://github.com/zhdk/tpf-client>
+
 #### Optional
 #### Head Tracker Tools:
+- [FaceMotionTracker](https://github.com/joambi/TPF-JAM-TOOL/blob/main/Resources/FacePoseHeadTracker.app.zip)
 - NX Head Tracker Waves <https://www.waves.com/hardware/nx-head-tracker>
 - USB Head Tracker <https://supperware.co.uk/headtracker-overview>
 - nvsonic <https://github.com/trsonic/nvsonic-head-tracker>
@@ -135,7 +134,6 @@ Please donate them when you are happy with all these tools!
 ----
 
 ## Authors
-
 Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller 
 
 ----
