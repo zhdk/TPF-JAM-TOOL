@@ -3,8 +3,10 @@
 
 ## About
 
-TPF-JAM-TOOL is a low-latency online jamming tool designed to connect up to sixteen musicians in different locations to play together in near real-time 
-(Mac only). 
+TPF-JAM-TOOL is a low-latency online jamming tool designed to connect up to sixteen musicians in different locations to play together in near real-time.
+
+(Mac only)
+
 A key feature of the tool is its ability to transmit communication and musical signals via binaural 3D audio over headphones, creating a more natural and immersive listening experience. 
 
 This was the primary motivation to integrate the 3D audio research '[Ambisonics at ICST](https://ambisonics.ch/)' into the telematic applications in the [spatial-discontinuities-in-telematic-performances](https://www.zhdk.ch/en/researchproject/575742) project.
