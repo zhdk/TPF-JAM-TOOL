@@ -2,7 +2,8 @@
 
 ## About
 
-TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
+TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. 
+(Mac only)  
 TPF-JAM-TOOL further develops the previous tools '[tpf-tools](https://telematicperformance.com/tools/)' and 'TPF-JAM-BASIC'. [Reaper.fm](https://www.reaper.fm/) is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts ([LuaScript](https://dail8859.github.io/LuaScript/)) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOL is to provide a very easy-to-use bundle with a wide variety of possibilities. In connection with the SNSF research project '[spatial-dis-continuities-in-telematic-performances](https://networkperformance.space)', many features have been incorporated into this tool. 
 Over the years, we spent many hours communicating over Zoom as a team of artists and researchers, which always tired us out quickly from an acoustic point of view. After experimenting with Ambisonics and Binaural rendering, many of us became less tired because a more natural hearing sensation set in, especially in music making.
 
@@ -50,6 +51,7 @@ Make sure to have all these Applications pre-installed:
   (Please install the [Pre-release v3.0.0.3]([url](https://github.com/schweizerweb/icst-ambisonics-plugins/releases)))
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
+- [FaceMotionTracker](https://github.com/joambi/TPF-JAM-TOOL/blob/main/Resources/FacePoseHeadTracker.app.zip)
 - [Reaper.app ](https://www.reaper.fm/download.php)
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole) is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
 ##### NOTE: 
