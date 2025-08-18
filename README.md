@@ -23,9 +23,9 @@ And now, let's jam...
 # What can TPF-JAM-TOOL do?
 
 
-- Low-latency bidirectional telematic jamming over Lan
-- Two inputs (mic/inst) sending to max. 16 destinations/locations
-- Receiving from max. 16 locations 
+- Low-latency bidirectional telematic jamming over LAN.
+- Two Inputs (Mic/Inst) sending to 16 Destinations/Locations
+- Receiving max. 16 locations 
 - Placement in 3D audio (binaural) 
 - Streaming a binaural mix (2ch) over OBS
 - Head tracking (headphones)
@@ -39,11 +39,10 @@ And now, let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOL here: [TPF-JAM-TOOL](https://github.com/joambi/tpf-jam-tool/releases/)
+### You can download the TPF-JAM-TOOL here: [TPF-JAM-TOOL](https://github.com/jschuett/TPF-JAM-TOOL/releases)
 #### NOTE:
 
-TPF-JAM-TOOL is for testing and is still under development!
-Please read the instructions for [installation](https://github.com/joambi/tpf-jam-tool/wiki/Installation)!
+Please read the [installation](https://github.com/joambi/tpf-jam-tool/wiki/Installation) instructions!
 
 ---
 
@@ -55,8 +54,8 @@ Make sure to have all these applications pre-installed:
   (Please install the [Pre-release v3.0.0.3](https://github.com/schweizerweb/icst-ambisonics-plugins/releases))
    ##### NOTE: The LV2 version of these Plugins is experimental and not yet ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
-- [FaceMotionTracker](https://github.com/joambi/tpf-jam-tool/blob/main/FacePoseHeadTracker.app.zip)
-- [Reaper.app](https://www.reaper.fm/download.php)
+- [FaceMotionTracker](https://github.com/joambi/TPF-JAM-TOOL/blob/main/Resources/FacePoseHeadTracker.app.zip)
+- [Reaper.app ](https://www.reaper.fm/download.php)
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole) is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
 ##### NOTE: 
 After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOL'. 
@@ -72,11 +71,11 @@ You have completed all pre-installations and are up to date.
 --> Restart computer!
 1. First, set up your Audio Interface and Hardware components, e.g.
 	- Mic (CH1)
-	- Instrument (keyboard) (CH2)
-2. Make sure that your hardware works correctly with your Mac/PC
+	- Instrument (Keyboard) (CH2)
+2. Make sure that your hardware works correctly with your Mac
 3. Create an Aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
-4. You get all the needed information, like the server address, room, and link to Livelab, by mail invitation from the bandleader. 
-5. Open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
+4. You get all the needed information, like the server address, room, and link to Livelab, by mail invitation from Bandleader. 
+5. Open Reaper, then choose "Settings" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 6. The left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
 7. Press the button 'tpf-client on'.
 8. In 'tpf-client,' go to Settings and add your <location-name> and the <jamming-room-name>.
@@ -99,12 +98,7 @@ So, happy jamming...
 3. Close your Reaper session.
 
 
-For more detailed information, visit the Wiki https://github.com/joambi/tpf-jam-tool/wiki -->, which is still in progress!
-
-----
-## Bugs
-For any bug report or suggestion, please open an issue
-[here](https://github.com/joambi/TPF-JAM-TOOL/discussions).
+For more detailed information, visit the Wiki https://github.com/joambi/tpf-jam-tool/wiki 
 
 ---
 
@@ -137,7 +131,6 @@ Please donate them when you are happy with all these tools!
 ----
 
 ## Authors
-
 Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller 
 
 ----
